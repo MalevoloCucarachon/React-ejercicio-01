@@ -1,0 +1,23 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.social-nets{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-nets li a{
+    margin: 15px 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: -webkit-fill-available;
+}

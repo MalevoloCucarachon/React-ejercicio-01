@@ -1,0 +1,37 @@
+
+.main-section{
+    padding: 2.5% 15%;
+    background-color: rgb(17, 49, 109);
+    
+}
+.main-section h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.main-section p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5% ;
+}
+.main-section .page{
+    background-color: whitesmoke;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.main-section .page .btn-contact{
+    background-color: black;
+    margin: 10px 30%;
+    border-style: none;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+.main-section .page .btn-contact:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
